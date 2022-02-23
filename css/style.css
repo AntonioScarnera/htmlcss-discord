@@ -203,7 +203,7 @@ nav ul li a{
 
 .end-page{
     width: 100%;
-    height: 80vh;
+    height: 85vh;
     border-top: #363F55;
 }
 
@@ -212,13 +212,59 @@ footer{
 }
 
 .list-1{
-    width: 32%;
+    width: 25%;
     
 }
-.list-1 ul li{
+.list-2{
+    width: calc(75% / 4);
+}
+.list-1 li{
+    list-style-type: none;
+    color: white;
+    margin-bottom: 20px;
+}
+.list-1 li h2{
+    font-size: 35px;
+    word-spacing: 10px;
+    color: #8ea1e1;
+}
+.list-2 li{
+    margin-bottom: 10px;
+}
+
+.list-2 li a{
+    text-decoration: none;
     list-style-type: none;
     color: white;
 }
-.list-1 ul li h2{
+
+.end-page ul{
+    display: inline-block;
+}
+
+.blue{
     color: #8ea1e1;
+}
+
+.lingua img{
+    width: 30px;
+}
+.social span i{
+    padding-right: 15px;
+}
+
+.logo-down{
+    width: 100%;
+    color: #fff;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#registrati{
+    float:right;
+    width: 15%;
+}
+
+.blue-border{
+    border-top: 1px solid #8ea1e1;
 }
