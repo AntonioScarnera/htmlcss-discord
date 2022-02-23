@@ -24,6 +24,13 @@ body{
     margin:0 auto;
 }
 
+.btn:hover{
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.6);
+}
+
+.btn:active{
+    background-color:#255EE9;
+}
 
 .btn {
     display: inline-block;
@@ -77,6 +84,9 @@ nav ul li a{
     text-align: center;
 }
 
+ul li a:hover{
+    text-decoration: underline;
+}
 
 
 #accedi .btn{
@@ -249,7 +259,9 @@ footer{
 .lingua img{
     width: 30px;
 }
-.social span i{
+.social a i{
+    color: white;
+    text-decoration: none;
     padding-right: 15px;
 }
 
